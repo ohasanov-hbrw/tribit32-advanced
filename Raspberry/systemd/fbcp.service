@@ -1,0 +1,18 @@
+[Unit]
+Description=framebuffer copy to spi screen
+After=display-manager.service time-sync.target
+#After=basic.target
+Conflicts=shutdown.target
+
+[Service]
+Type=simple
+ExecStart=/home/ohasanov/fbcp-nexus/build/fbcp-ili9341
+# Allows the binary to access hardware interfaces directly
+User=root
+Restart=always
+RestartSec=2
+# Give it a clean termination signal before forcing a kill
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=multi-user.target

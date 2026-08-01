@@ -1,0 +1,15 @@
+[Unit]
+Description=uart controller
+Before=basic.target
+After=local-fs.target
+DefaultDependencies=no
+
+[Service]
+Type=simple
+ExecStart=/home/ohasanov/Raspberry-UART-Controller/joystick_emulator
+Restart=always
+RestartSec=5
+KillSignal=SIGKILL
+
+[Install]
+WantedBy=basic.target

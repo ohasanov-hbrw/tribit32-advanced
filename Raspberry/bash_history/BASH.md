@@ -1,0 +1,2 @@
+# Bash History
+This is literally the complete list of commands I used for setting this up. Sadly selections for the menus are not there but it should still give an idea... More about backing up stuff than anything.

@@ -1,0 +1,2 @@
+# SystemD Services
+These files go to `/etc/systemd/system/` and are there to autostart the controller emulator and the fbcp driver. You might need to change the location of the binaries, as they are configured for my username.
