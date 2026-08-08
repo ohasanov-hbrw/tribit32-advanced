@@ -35,6 +35,17 @@ If you are going to be including a Raspberry Pi, you will also need to get an Ar
 - **2.54 mm male and female headers**: You can also totally do the project without any female or even any headers, but you can make pretty much everything dissasemble-able using these. 
 - **BC547 NPN Transistors**: Really only needed if you are building a two-board system. 
 
+### PCB
+
+![PCB Front Side]()
+![PCB Back Side]()
+
+This project is mainly thought out to be built with a custom PCB. Although it is technically possible to make this with normal perfboards as all used components are through hole components (no SMD components), a PCB makes the assembly process a lot faster whilst also resulting in a cleaner build. 
+
+The PCBs for my build were manufactured by [NextPCB](https://www.nextpcb.com/). Thanks a lot for them sending over the PCBs and thus motivating me to design my own PCBs for my future projects. 
+
+
+
 ## Software Guide
 
 This section will be divided into two subsections. Software for the ESP32 and Software for the Raspberry Pi
