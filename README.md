@@ -37,8 +37,8 @@ If you are going to be including a Raspberry Pi, you will also need to get an Ar
 
 ### PCB
 
-![PCB Front Side]()
-![PCB Back Side]()
+![PCB Front Side](https://github.com/ohasanov-hbrw/tribit32-advanced/blob/master/Images/PCBFrontWhite.jpg?raw=true)
+![PCB Back Side](https://github.com/ohasanov-hbrw/tribit32-advanced/blob/master/Images/PCBBackWhite.jpg?raw=true)
 
 This project is mainly thought out to be built with a custom PCB. Although it is technically possible to make this with normal perfboards as all used components are through hole components (no SMD components), a PCB makes the assembly process a lot faster whilst also resulting in a cleaner build. 
 
